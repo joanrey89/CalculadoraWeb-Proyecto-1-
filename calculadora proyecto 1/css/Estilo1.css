@@ -1,0 +1,57 @@
+﻿
+body {
+    background-color: #061826;
+    text-align: center;
+}
+
+#form1 {
+    background-color: #1a303f;
+    width: 481px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    height: 1081px;
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+
+.button1 {
+    background-color: #04AA6D;
+}
+/* Green */
+.button2 {
+    background-color: #2c505c;
+}
+/* Blue */
+.button3 {
+    background-color: #607e7e;
+}
+/* Red */
+.button4 {
+    background-color: #e7d6c2;
+    color: black;
+}
+/* orange */
+.button5 {
+    background-color: #806a5d;
+}
+/* Black */
+
+
+.disenodemarco {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+}

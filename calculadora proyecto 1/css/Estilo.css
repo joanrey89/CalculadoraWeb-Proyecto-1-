@@ -1,0 +1,80 @@
+﻿/* Estilos generales del cuerpo */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f7f6; /* Fondo gris muy claro */
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    min-height: 100vh; /* Ocupar el 100% de la altura de la ventana */
+    margin: 0;
+}
+
+/* Contenedor del formulario (la capa que lo envuelve) */
+#form1 {
+    background-color: #ffffff; /* Fondo blanco para el formulario */
+    padding: 40px;
+    border-radius: 12px; /* Esquinas redondeadas suaves */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Sombra elegante */
+    width: 100%;
+    max-width: 400px; /* Ancho máximo para que no se extienda demasiado */
+    box-sizing: border-box;
+}
+
+    /* Estilos para el div que contiene los elementos (para mejor organización) */
+    #form1 > div {
+        display: flex;
+        flex-direction: column; /* Apilar elementos verticalmente */
+    }
+
+/* Estilos para las etiquetas (Usuario, Contraseña) */
+.aspNetDisabled, /* Para asegurar que el estilo aplique bien a los controles de ASP.NET */
+label {
+    margin-bottom: 5px;
+    font-weight: 600; /* Texto de etiqueta semi-negrita */
+    color: #333;
+    font-size: 1.1em;
+}
+
+/* Estilos para las cajas de texto */
+input[type="text"],
+input[type="password"] {
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+    /* Efecto al pasar el cursor o al enfocar las cajas de texto */
+    input[type="text"]:focus,
+    input[type="password"]:focus {
+        border-color: #007bff; /* Borde azul al enfocar */
+        box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        outline: none; /* Quitar el contorno predeterminado del navegador */
+    }
+
+/* Estilos para el botón de Iniciar Sesión */
+#btnIniciarSesion {
+    background-color: #007bff; /* Color primario azul */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-top: 10px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+    /* Efecto al pasar el cursor sobre el botón */
+    #btnIniciarSesion:hover {
+        background-color: #0056b3; /* Un azul más oscuro */
+        transform: translateY(-2px); /* Un pequeño levantamiento */
+    }
+
+
+br {
+    display: none;
+}
